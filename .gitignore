@@ -1,0 +1,14 @@
+# 素材與工作檔不進 repo
+footage/
+work/
+projects/
+renders/
+*.mov
+*.MOV
+*.wav
+*.m4v
+*.mp4
+# 成品要用 GitHub 下載時，Claude 會用 git add -f 加入 成品/ 底下的 mp4
+.DS_Store
+node_modules/
+__pycache__/
